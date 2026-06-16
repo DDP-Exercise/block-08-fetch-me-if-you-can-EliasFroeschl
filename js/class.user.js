@@ -20,3 +20,18 @@
  *      - href="mailto:.." for the email and
  *      - href=".." target="_blank" for the website.
  *  *******************************************************/
+
+export default class User {
+    constructor(userInfo) {
+        this.id = userInfo.id;
+        this.name = userInfo.name;
+        this.username = userInfo.username;
+        this.email = userInfo.email;
+        this.website = userInfo.website;
+        this.posts = [];
+    }
+
+    addPost(post) {
+        this.posts.push(post);
+    }
+}
