@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef3ef;
+    color: #1f2a24;
+    margin: 0;
+    padding: 30px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #264536;
+    margin-bottom: 10px;
+}
+
+#statusText {
+    color: #5f6f63;
+    margin-bottom: 30px;
+}
+
+.user-box {
+    background-color: #fffdf7;
+    padding: 20px;
+    margin-bottom: 22px;
+    border: 1px solid #c8d6cc;
+    border-radius: 10px;
+}
+
+.user-box h2 {
+    color: #2f5d46;
+    margin-top: 0;
+}
+
+.post-box {
+    background-color: #f3efe4;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 5px solid #7a9b76;
+    border-radius: 6px;
+}
+
+.post-box h3 {
+    color: #4c6242;
+}
+
+.comment-box {
+    background-color: #fffaf0;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #d7c7a1;
+    border-radius: 6px;
+}
+
+.comment-box h4 {
+    color: #7b5e2e;
+    margin-top: 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 13px;
+    border: 1px solid #47634f;
+    border-radius: 5px;
+    background-color: #dce8d8;
+    color: #1f2a24;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #c8dbc2;
+}
+
+a {
+    color: #2d6a4f;
+}
